@@ -1,4 +1,4 @@
-Covid 19 Tracker using JS , React, HTML and CSS.
+Covid 19 Tracker using JS , React, HTML and CSS and elements from Material-UI.
 
 Database used: https://disease.sh/
 
