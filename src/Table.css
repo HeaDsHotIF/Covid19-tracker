@@ -1,0 +1,25 @@
+.table {
+  margin-top: 25px;
+  overflow: scroll;
+  height: 400px;
+  color: grey;
+  background-color: white;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+  transition: 0.4s ease-out;
+}
+
+.table td {
+  padding: 1.5%;
+  border: none;
+}
+.table tr:nth-of-type(odd) {
+  background-color: #ebebeb;
+}
+.table tr:hover {
+  transform: scale(0.95);
+  transition: 0.4s ease-in;
+}

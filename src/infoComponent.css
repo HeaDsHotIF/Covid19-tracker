@@ -1,0 +1,47 @@
+.infoComponent {
+  flex: 1 !important;
+  cursor: pointer;
+}
+.infoComponent:not(:last-child) {
+  margin-right: 15px;
+}
+
+.infoComponent__cases {
+  color: #fc3c3c;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  transition: 0.3s ease-out !important;
+}
+
+.infoComponent__total {
+  color: #6c757d;
+  font-weight: 800 !important;
+  font-size: 1.3rem !important;
+  margin-top: 15px !important;
+  transition: 0.3s ease-out !important;
+}
+
+.infoComponent--selected {
+  border-top: 15px solid green;
+  transform: scale(1.05);
+  transition: 0.3s ease-in !important;
+}
+
+.infoComponent--red {
+  border-color: red;
+  transition: 0.3s ease-out !important;
+}
+
+.infoComponent--purple {
+  border-color: #682a43;
+  transition: 0.3s ease-out !important;
+}
+
+.infoComponent__cases--green {
+  color: green !important;
+}
+
+.infoComponent__cases--purple {
+  color: #682a43;
+}
