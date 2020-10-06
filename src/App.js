@@ -41,7 +41,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const getCountriesData = async () => {
+    async function getCountriesData() {
       await fetch("https://disease.sh/v3/covid-19/countries")
         .then((response) => response.json())
         .then((countriesData) => {
@@ -54,7 +54,7 @@ function App() {
           setMapCountries(countriesData);
           setCountries(countries);
         });
-    };
+    }
 
     getCountriesData();
   }, []);

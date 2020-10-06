@@ -30,7 +30,7 @@ function InfoComponent({
           {cases}
         </h2>
         <Typography className="infoComponent__total" color="textSecondary">
-          Total: {total}
+          <p className="total_cases">Total: {total}</p>
         </Typography>
       </CardContent>
     </Card>

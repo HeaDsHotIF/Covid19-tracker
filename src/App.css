@@ -58,7 +58,7 @@ body {
 }
 .graphButtons > Button {
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-right: 10px;
   margin-left: 10px;
   border-width: 2px;
@@ -70,7 +70,19 @@ body {
   flex: 1;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1100px) {
+  .app__infos {
+    height: 100%;
+  }
+  .MuiPaper-root {
+    margin: 1px !important;
+  }
+  .app__header > h1 {
+    font-size: 1.5rem;
+  }
+  .app__header {
+    margin-bottom: 20px;
+  }
   .graphButtons Button:nth-of-type(even) {
     display: none;
   }
@@ -80,4 +92,28 @@ body {
   .app__right {
     margin-top: 15px;
   }
-} ;
+  .app__dropdown {
+    width: 200px;
+  }
+  .MuiSelect-root {
+    height: 5px !important;
+  }
+  .app {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+  }
+  .graphButtons {
+    padding-bottom: 10px;
+  }
+  .graphButtons > Button {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 325px) {
+  .graphButtons > Button {
+    padding: 5px;
+  }
+}

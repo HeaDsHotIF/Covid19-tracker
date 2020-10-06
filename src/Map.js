@@ -4,7 +4,6 @@ import "./Map.css";
 import { drawCirclesOnMap } from "./utility";
 
 function Map({ countries, casesType, center, zoom }) {
-  console.log(center, zoom);
   return (
     <div className="map">
       <LeafletMap center={center} zoom={zoom}>

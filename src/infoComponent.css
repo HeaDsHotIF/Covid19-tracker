@@ -45,3 +45,19 @@
 .infoComponent__cases--purple {
   color: #682a43;
 }
+
+.MuiCardContent-root {
+  padding: 0px !important;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .MuiCardContent-root > h2 {
+    font-size: 1.5rem;
+  }
+  .total_cases {
+    font-size: 1rem;
+    padding-bottom: 5px;
+  }
+}
